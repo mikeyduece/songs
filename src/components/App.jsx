@@ -1,7 +1,8 @@
 // Dependencies
-import React    from 'react'
+import React      from 'react'
 // components
-import SongList from './SongList'
+import SongList   from './SongList'
+import SongDetail from './SongDetail'
 
 const App = () => {
   return (
@@ -9,7 +10,10 @@ const App = () => {
       <div className='ui row'>
         <div className='column eight wide'>
           <SongList />
+        </div>
 
+        <div className='column four wide'>
+          <SongDetail />
         </div>
       </div>
     </div>
